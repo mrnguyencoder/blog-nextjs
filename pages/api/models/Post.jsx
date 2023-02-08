@@ -12,7 +12,7 @@ module.exports = Post;
 
 
 import React from 'react';
-import Post from '../models/Post';
+import Post from './Post';
 
 const Posts = ({ posts }) => {
   return (
